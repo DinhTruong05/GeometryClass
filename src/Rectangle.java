@@ -46,7 +46,11 @@ public class Rectangle extends Shape {
                 + getWidth()
                 + ", length="
                 + getLength()
-                + ", which is a subclass of "
+                + " have area="
+                + getArea()
+                + " and perimeter="
+                + getPerimeter()
+                +", which is a subclass of "
                 + super.toString();
     }
 }
